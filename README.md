@@ -52,9 +52,8 @@ private-ai-doc-assistant/
 ## 🧪 How to Run
 
 > 📝 Prerequisite: Python 3.10+, and a machine capable of running a quantized model locally (e.g., Mistral or LLaMA)
-
-1. **Install dependencies**
 ```bash
+1. **Install dependencies**
 pip install -r requirements.txt
 2. **Add your PDF files**
 
