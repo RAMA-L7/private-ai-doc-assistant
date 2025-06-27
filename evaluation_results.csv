@@ -1,0 +1,13 @@
+Question,Expected,Assistant,Similarity,Pass
+What does SmartAudit AI do?,"SmartAudit AI helps fintech startups audit transactions in real-time using LLMs. It detects anomalies via pattern learning, integrates with banking APIs (Plaid, Yodlee), and delivers explainable reports for compliance.","SmartAudit AI is a software solution that helps fintech startups audit transactions in real-time using LLMs. It detects anomalies via pattern learning, integrates with banking APIs (Plaid, Yodlee), and delivers explainable reports for compliance.",0.94,✅
+Who are the target users of SmartAudit AI?,"Fintech CTOs, auditors, and regulators.","Fintech CTOs, auditors, and regulators.",1.0,✅
+What is the projected RegTech market size?,$21B by 2027.,The global RegTech market is projected to hit $21B by 2027.,0.36,❌
+How much funding is being asked for?,$1M seed funding.,$1M seed funding is being asked for to scale the team and product.,0.41,❌
+What business model is used?,SaaS subscription model.,The business model used is a Software as a Service (SaaS) subscription model.,0.48,❌
+What is the audit API endpoint?,/audit/transactions,/audit/transactions,1.0,✅
+What does the API response contain?,It contains an audit_score and a list of flags such as suspicious_vendor or duplicate_entry.,"The API response contains an audit score and flags. The audit score is a measure of the overall audit quality of the transactions, ranging from 0 to 1. Flags are an indication of any suspicious or potentially non-compliant transactions, such as suspicious vendor, duplicate entry, etc.",0.02,❌
+What are the company’s cultural values?,"Think customer-first, move fast, stay grounded, document what you learn.","The company values thinking customer-first, moving fast while staying grounded, and documenting what is learned.",0.73,❌
+What is step 1 of onboarding?,GitHub access and repo clone.,The first step of the onboarding process for new team members at SmartAudit AI is to give them access to GitHub and clone the company's repository.,0.19,❌
+What model was evaluated?,Mistral-7B-Instruct.,The LLM Evaluation Report Model that was evaluated is Mistral-7B-Instruct.,0.43,❌
+What hallucination rate was reported?,5.2%,The hallucination rate reported was 5.2%.,0.18,❌
+What is the conclusion from the eval report?,Mistral-7B-Instruct offers the best balance for edge deployment.,Best balance for edge deployment.,0.68,❌

@@ -1,0 +1,13 @@
+Question,Expected,Assistant,Similarity,Pass
+What does SmartAudit AI do?,"SmartAudit AI helps fintech startups audit transactions in real-time using LLMs. It detects anomalies via pattern learning, integrates with banking APIs (Plaid, Yodlee), and delivers explainable reports for compliance.",SmartAudit AI helps fintech startups audit transactions in real-time using LLMs.,0.94,✅
+Who are the target users of SmartAudit AI?,"Fintech CTOs, auditors, and regulators.","Fintech CTOs, auditors, and regulators.",1.0,✅
+What is the projected RegTech market size?,$21B by 2027.,The global RegTech market is projected to hit $21B by 2027.,0.62,❌
+How much funding is being asked for?,$1M seed funding.,$1M,0.63,❌
+What business model is used?,SaaS subscription model.,SaaS subscription model,0.96,✅
+What is the audit API endpoint?,/audit/transactions,/audit/transactions,1.0,✅
+What does the API response contain?,It contains an audit_score and a list of flags such as suspicious_vendor or duplicate_entry.,The API response contains an audit score and a list of flags.,0.65,❌
+What are the company’s cultural values?,"Think customer-first, move fast, stay grounded, document what you learn.","- Think customer-first - Move fast, stay grounded - Document what you learn",0.96,✅
+What is step 1 of onboarding?,GitHub access and repo clone.,Step 1 of the onboarding process is to grant GitHub access and clone the repo.,0.68,❌
+What model was evaluated?,Mistral-7B-Instruct.,Mistral-7B-Instruct,0.96,✅
+What hallucination rate was reported?,5.2%,5.2%,1.0,✅
+What is the conclusion from the eval report?,Mistral-7B-Instruct offers the best balance for edge deployment.,The conclusion from the eval report is that the LLM model (Mistral-7B-Instruct) provides a good balance for edge deployment.,0.82,✅
