@@ -57,7 +57,7 @@ private-ai-doc-assistant/
 1. **Install dependencies**
   ```bash
 pip install -r requirements.txt
-
+```
  Add your PDF files
   Drop your PDFs into the data/ folder
 
