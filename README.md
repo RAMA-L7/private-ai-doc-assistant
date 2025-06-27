@@ -52,10 +52,11 @@ private-ai-doc-assistant/
 ## 🧪 How to Run
 
 > 📝 Prerequisite: Python 3.10+, and a machine capable of running a quantized model locally (e.g., Mistral or LLaMA)
-```bash
+
 
 1. **Install dependencies**
-  pip install -r requirements.txt
+  ```bash
+pip install -r requirements.txt
 
 2. **Add your PDF files**
   Drop your PDFs into the data/ folder
@@ -73,3 +74,10 @@ Answer: "The target users of SmartAudit AI are Fintech CTOs, auditors, and regul
 
 📄 **License**
 This project is open source under the MIT License.
+
+🙌 Acknowledgements
+
+- [Sentence Transformers](https://www.sbert.net/)
+- [ChromaDB](https://www.trychroma.com/)
+- [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
+- [Streamlit](https://streamlit.io/)
