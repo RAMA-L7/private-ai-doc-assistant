@@ -33,5 +33,10 @@
     "timestamp": "2025-06-27 13:00:05",
     "question": "what business model is used?",
     "answer": "The business model used is a SaaS (Software as a Service) subscription model."
+  },
+  {
+    "timestamp": "2025-06-27 15:06:36",
+    "question": "what is the summary of company?",
+    "answer": "The company is a RegTech startup that provides real-time transaction monitoring using LLMs to help fintech companies comply with regulations and manage data overload. The company has already secured $10K in MRR from 20 pilot customers and is seeking $1M in seed funding to scale its team and product. The global RegTech market is projected to reach $21B by 2027."
   }
 ]
