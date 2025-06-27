@@ -58,14 +58,14 @@ private-ai-doc-assistant/
   ```bash
 pip install -r requirements.txt
 
-2. **Add your PDF files**
+ **Add your PDF files**
   Drop your PDFs into the data/ folder
 
-3. **Download a compatible LLM model**
+ **Download a compatible LLM model**
   Place a .gguf file (like mistral-7b.Q4_0.gguf) into the models/ folder
   You can get Mistral from huggingface.co/TheBloke
 
-4. **Run the app**
+ **Run the app**
   streamlit run app.py
 
 ✨ **Sample Use Case**
