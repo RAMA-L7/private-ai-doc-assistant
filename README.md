@@ -85,6 +85,22 @@ This project is open source under the [MIT License](LICENSE).
 
 ---
 
+✅ Evaluation Results
+Evaluation of the assistant's responses has been successfully completed. Results and findings are available in the repository under:
+```bash
+/evaluations/
+```
+These include:
+
+Test questions
+
+Ground truth answers
+
+Model responses
+
+Accuracy notes
+
+The evaluation confirms the assistant’s effectiveness in retrieving document-grounded answers for uploaded PDFs.
  🙌 Acknowledgements
 
 - [Sentence Transformers](https://www.sbert.net/)
