@@ -71,6 +71,8 @@ streamlit run app.py
 ```
 
 ---
+![Accuracy and answer relevance check](/Results_images/sample_image_1.png)
+_“Evaluation screenshot showing high accuracy on PDF QA tasks.”_
 
  ✨ Sample Use Case
 
