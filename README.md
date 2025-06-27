@@ -53,19 +53,19 @@ private-ai-doc-assistant/
 
 > 📝 Prerequisite: Python 3.10+, and a machine capable of running a quantized model locally (e.g., Mistral or LLaMA)
 ```bash
-1. **Install dependencies**
-pip install -r requirements.txt
-2. **Add your PDF files**
 
-Drop your PDFs into the data/ folder
+1. **Install dependencies**
+  pip install -r requirements.txt
+
+2. **Add your PDF files**
+  Drop your PDFs into the data/ folder
 
 3. **Download a compatible LLM model**
-Place a .gguf file (like mistral-7b.Q4_0.gguf) into the models/ folder
-
-You can get Mistral from huggingface.co/TheBloke
+  Place a .gguf file (like mistral-7b.Q4_0.gguf) into the models/ folder
+  You can get Mistral from huggingface.co/TheBloke
 
 4. **Run the app**
-streamlit run app.py
+  streamlit run app.py
 
 ✨ **Sample Use Case**
 “Who are the target users of SmartAudit AI?”
