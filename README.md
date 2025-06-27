@@ -58,21 +58,21 @@ private-ai-doc-assistant/
   ```bash
 pip install -r requirements.txt
 
- **Add your PDF files**
+ Add your PDF files
   Drop your PDFs into the data/ folder
 
- **Download a compatible LLM model**
+ Download a compatible LLM model
   Place a .gguf file (like mistral-7b.Q4_0.gguf) into the models/ folder
   You can get Mistral from huggingface.co/TheBloke
 
- **Run the app**
+ Run the app
   streamlit run app.py
 
-✨ **Sample Use Case**
+✨ Sample Use Case
 “Who are the target users of SmartAudit AI?”
 Answer: "The target users of SmartAudit AI are Fintech CTOs, auditors, and regulators."
 
-📄 **License**
+📄 License
 This project is open source under the MIT License.
 
 🙌 Acknowledgements
