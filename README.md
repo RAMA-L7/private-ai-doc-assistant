@@ -31,20 +31,21 @@ A fully offline AI-powered assistant that helps you **ask natural language quest
 
 ## 📁 Folder Structure
 
+```
 private-ai-doc-assistant/
-├── app.py ← Main Streamlit app
-├── data/ ← Drop your PDFs here
+├── app.py                      ← Main Streamlit app
+├── data/                       ← Drop your PDFs here
 ├── embeddings/
-│ └── chroma/ ← Vector database folder
+│   └── chroma/                 ← Vector database folder
 ├── models/
-│ └── mistral-7b.Q4_0.gguf ← Local LLM file
+│   └── mistral-7b.Q4_0.gguf    ← Local LLM file
 ├── scripts/
-│ ├── chat_engine.py ← Handles retrieval + LLM response
-│ ├── chat_history.py ← Saves interaction logs
-│ └── upload_and_embed.py ← Ingest + embed new PDFs (optional)
-├── chat_logs/ ← Timestamped JSON Q&A logs
-├── README.md ← You're here
-
+│   ├── chat_engine.py          ← Handles retrieval + LLM response
+│   ├── chat_history.py         ← Saves interaction logs
+│   └── upload_and_embed.py     ← Ingest + embed new PDFs (optional)
+├── chat_logs/                  ← Timestamped JSON Q&A logs
+├── README.md                   ← You're here
+```
 
 ---
 
